@@ -45,7 +45,8 @@ If I am taking ephemeral notes and I don't want to open VIM).
 
 That is perfectly fine when I'm writing in English, but not when I'm
 writing in Italian (which has accented vowels such as è, é, ù, ò and ì)
-or German which has Ezset (ß) and Umlaut (ü, ö, ä).
+or German which has Ezset (ß) and Umlaut (ü, ö, ä).  And I don't want to
+switch from USA layout to localized ones.
 
 The solution could be to use the UTF8 input provided by the System, but
 I would need to remember the conter-intuitive Unicode number.
