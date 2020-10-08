@@ -7,27 +7,17 @@ Insert VIM digraphs with ZSH.
 The plugin uses VIM digraphs.
 The most common ones used for German and Italian are:
 
-+------+-------+---------------------------+
 | code | Glyph | Description               |
-+------+-------+---------------------------+
+|------|-------|---------------------------|
 |  a`  |   a   | Grave-accented a (là)     |
-+------+-------+---------------------------+
 |  i`  |   i   | Grave-accented i (così)   |
-+------+-------+---------------------------+
 |  o`  |   o   | Grave-accented o (però)   |
-+------+-------+---------------------------+
 |  e`  |   è   | Grave-accented e (è)      |
-+------+-------+---------------------------+
 |  e'  |   é   | Acute-accented e (perché) |
-+------+-------+---------------------------+
 |  a:  |   ä   | Umlauted a (männer)       |
-+------+-------+---------------------------+
 |  o:  |   ö   | Umlauted o (öl)           |
-+------+-------+---------------------------+
 |  u:  |   ü   | Umlauted u (Tschüss)      |
-+------+-------+---------------------------+
 |  ss  |   ß   | Eszett (Straße)           |
-+------+-------+---------------------------+
 
 To insert one code, write the two characters and press Ctrl-K, the
 characters will get translated to their relative glyph.
