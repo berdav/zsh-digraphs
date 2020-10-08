@@ -9,9 +9,9 @@ The most common ones used for German and Italian are:
 
 | code | Glyph | Description               |
 |------|-------|---------------------------|
-|  a`  |   a   | Grave-accented a (là)     |
-|  i`  |   i   | Grave-accented i (così)   |
-|  o`  |   o   | Grave-accented o (però)   |
+|  a`  |   à   | Grave-accented a (là)     |
+|  i`  |   ì   | Grave-accented i (così)   |
+|  o`  |   ò   | Grave-accented o (però)   |
 |  e`  |   è   | Grave-accented e (è)      |
 |  e'  |   é   | Acute-accented e (perché) |
 |  a:  |   ä   | Umlauted a (männer)       |
