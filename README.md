@@ -1,7 +1,7 @@
 # ZSH Digraphs
 
 Insert VIM digraphs with ZSH.
-![readme-img](Download of german's wikipedia and grep of eszet words.)
+![readme-img/zsh-digraphs.gif](Download of german's wikipedia and grep of eszet words.)
 
 ## Usage
 The plugin uses VIM digraphs.
