@@ -1,6 +1,7 @@
 # ZSH Digraphs
 
 Insert VIM digraphs with ZSH.
+
 ![Download of german's wikipedia and grep of eszet words.](https://github.com/berdav/zsh-digraphs/raw/master/readme-img/zsh-digraphs.gif)
 
 ## Usage
