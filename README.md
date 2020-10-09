@@ -52,5 +52,5 @@ switch from USA layout to localized ones.
 The solution could be to use the UTF8 input provided by the System, but
 I would need to remember the conter-intuitive Unicode number.
 
-The VIM input system is really easy to mesmorize.  Therefore this script
+The VIM input system is really easy to memorize.  Therefore this script
 adapt VIM input to ZSH.
