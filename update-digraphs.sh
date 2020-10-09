@@ -121,6 +121,14 @@ int main(int argc, char **argv)
 	}
 	fprintf(out, "\tcode1=\\"\$BUFFER[-2]\\"\n");
 	fprintf(out, "\tcode2=\\"\$BUFFER[-1]\\"\n");
+	fprintf(out, "\tif [ \\"\$code1\\" = \\"\\" -o \\"\$code2\\" = \\"\\" ]; then\n");
+	fprintf(out, "\t\treturn\n");
+	fprintf(out, "\tfi\n");
+
+	fprintf(out, "\tif [ \\"\$_digraphs[\\"\$code1\$code2\\"]\\" = \\"\\" ]; then\n");
+	fprintf(out, "\t\treturn\n");
+	fprintf(out, "\tfi\n");
+
 	fprintf(out, "\tdigraph_to_add=\\"\$(printf \$_digraphs[\\"\$code1\$code2\\"])\\"\n");
 	fprintf(out, "\tLBUFFER=\\"\${LBUFFER[1,-3]}\${digraph_to_add}\\"\n");
 	fprintf(out, "}\n");

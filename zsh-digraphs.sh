@@ -1362,10 +1362,16 @@ function digraph {
 	_digraphs["fl"]="\ufb02"
 	_digraphs["ft"]="\ufb05"
 	_digraphs["st"]="\ufb06"
-# user digraphs
+	# user digraphs
 	_digraphs["xz"]="\u2f7"
 	code1="$BUFFER[-2]"
 	code2="$BUFFER[-1]"
+	if [ "$code1" = "" -o "$code2" = "" ]; then
+		return
+	fi
+	if [ "$_digraphs["$code1$code2"]" = "" ]; then
+		return
+	fi
 	digraph_to_add="$(printf $_digraphs["$code1$code2"])"
 	LBUFFER="${LBUFFER[1,-3]}${digraph_to_add}"
 }
