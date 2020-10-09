@@ -108,7 +108,7 @@ int main(int argc, char **argv)
 			digraphdefault[i].result);
 	}
 	len = sizeof(userdigraphs) / sizeof(*userdigraphs);
-	fprintf(out, "# user digraphs\n");
+	fprintf(out, "\t# user digraphs\n");
 	for (int i = 0 ; i < len ; ++i) {
 		if (userdigraphs[i].code1 == 0 || userdigraphs[i].code2 == 0)
 			continue;
