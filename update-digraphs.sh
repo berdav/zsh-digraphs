@@ -100,7 +100,7 @@ int main(int argc, char **argv)
 	for (int i = 0 ; i < len ; ++i) {
 		if (digraphdefault[i].code1 == 0 || digraphdefault[i].code2 == 0)
 			continue;
-		fprintf(out, "\t_digraphs[\\"%s%c%s%c\\"]=\\"\\\\u%x\\" # %lc\n",
+		fprintf(out, "\t_digraphs[\\"%s%c%s%c\\"]=\\"\\\\U%08x\\" # %lc\n",
 			(need_to_escape(digraphdefault[i].code1)? "\\\\" : ""),
 			digraphdefault[i].code1,
 			(need_to_escape(digraphdefault[i].code2)? "\\\\" : ""),
@@ -113,7 +113,7 @@ int main(int argc, char **argv)
 	for (int i = 0 ; i < len ; ++i) {
 		if (userdigraphs[i].code1 == 0 || userdigraphs[i].code2 == 0)
 			continue;
-		fprintf(out, "\t_digraphs[\\"%s%c%s%c\\"]=\\"\\\\u%x\\" # %lc\n",
+		fprintf(out, "\t_digraphs[\\"%s%c%s%c\\"]=\\"\\\\U%08x\\" # %lc\n",
 			(need_to_escape(userdigraphs[i].code1)? "\\\\" : ""),
 			userdigraphs[i].code1,
 			(need_to_escape(userdigraphs[i].code2)? "\\\\" : ""),

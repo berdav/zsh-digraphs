@@ -23,4 +23,6 @@ digr_T userdigraphs[] = {
 	/* Sample digraph */
 	{ 'x', 'z', 0x2f7 },
 	{ 'e', 'I', 0x259 },
+	/* emoji */
+	{ '^', '^', 0x1f51d }, /* TOP */
 };
